@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accordion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="wrapper">
+        <div data-accordions data-one-accordion class="accordion accordion_1">
+            <div class="accordion__item">
+                <button data-accordion class="accordion__title">Обычный спойлер №1</button>
+                <div class="accordion__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos ex magni ratione est fugit praesentium ut molestias. Vitae odio quos blanditiis, quisquam facere possimus tenetur recusandae, tempore hic incidunt doloremque.</div>
+            </div>
+            <div class="accordion__item">
+                <button data-accordion class="accordion__title">Обычный спойлер №2</button>
+                <div class="accordion__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos ex magni ratione est fugit praesentium ut molestias. Vitae odio quos blanditiis, quisquam facere possimus tenetur recusandae, tempore hic incidunt doloremque.</div>
+            </div>
+            <div class="accordion__item">
+                <button data-accordion class="accordion__title">Обычный спойлер №3</button>
+                   <div class="accordion__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos ex magni ratione est fugit praesentium ut molestias. Vitae odio quos blanditiis, quisquam facere possimus tenetur recusandae, tempore hic incidunt doloremque.</div>
+            </div>
+        </div>
+        <div data-accordions="650,min" class="accordion accordion_2">
+            <div class="accordion__item">
+                <button data-accordion class="accordion__title">Спойлер работает на экранах >= 650px</button>
+                <div class="accordion__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos ex magni ratione est fugit praesentium ut molestias. Vitae odio quos blanditiis, quisquam facere possimus tenetur recusandae, tempore hic incidunt doloremque.</div>
+            </div>
+        </div>
+        <div data-accordions="800,max" class="accordion accordion_3">
+            <div class="accordion__item">
+                <button data-accordion class="accordion__title">Спойлер работает на экранах <= 800px</button>
+                <div class="accordion__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos ex magni ratione est fugit praesentium ut molestias. Vitae odio quos blanditiis, quisquam facere possimus tenetur recusandae, tempore hic incidunt doloremque.</div>
+            </div>
+            <div class="accordion__item">
+                <button data-accordion class="accordion__title">Спойлер работает на экранах <= 800px</button>
+                <div class="accordion__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos ex magni ratione est fugit praesentium ut molestias. Vitae odio quos blanditiis, quisquam facere possimus tenetur recusandae, tempore hic incidunt doloremque.</div>
+            </div>
+        </div>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
